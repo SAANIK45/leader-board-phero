@@ -21,10 +21,8 @@ body {
 /* reusable */
 
 .container {
-	width: 1140px;
+	width: 870px;
 }
-
-
 
 
 /* header */
@@ -89,17 +87,18 @@ body {
 .top-players {
 	background: #fff;
 	border-radius: 10px;
+	padding: 20px;
 }
 
 .player-item {
 	display: flex;
 	align-items: center;
-	padding: 20px;
+	/*! padding: 20px; */
 	justify-content: center;
 }
 
 .section-title {
-	padding: 20px;
+	/*! padding: 20px; */
 }
 
 .player-item img {
@@ -113,9 +112,14 @@ body {
 	margin-left: 16px;
 }
 
+hr {
+	border: 1px solid #D1D1D1;
+}
+
 .players {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
 }
 
 .players-blog {
@@ -170,8 +174,4 @@ body {
 	color: #562EFF;
 	font-weight: 500;
 	font-size: 24px;
-}
-
-.section-title {
-	text-align: center;
 }
